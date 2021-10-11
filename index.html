@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>An Byung Hoon</title>
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./header.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-circle-progress/1.2.2/circle-progress.min.js" integrity="sha512-6kvhZ/39gRVLmoM/6JxbbJVTYzL/gnbDVsHACLx/31IREU4l3sI7yeO0d4gw8xU5Mpmm/17LMaDHOCf+TvuC2Q==" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div id="header" onmouseover="headerIn()" onmouseout="headerOut()">
+        <ul>
+            <li class="navs">Home_</li>
+            <li class="navs">Info_</li>
+            <li class="navs">Skill_</li>
+            <li class="navs">Portfolio_</li>
+            <li class="navs">Contact_</li>
+        </ul>
+        <div id="header_btn"><</div>
+    </div>
+    <div id="first">
+        <div id="rcc">Responsible&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Creative&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Cooperative</div>
+        <div id="hello_box">
+            <span>노력하는 개발자</span><br>
+            <span>안병훈의 포트폴리오 입니다</span>
+        </div>
+        <div id="hello_btn">VIEW MORE</div>
+    </div>
+    <div id="second">
+        <div id="introduce_box">
+            <div id="me_box">
+                <div id="picture"></div>
+                <div id="simple_intro">
+                    <p>준비하고 노력하고 생각하는 개발자</p>
+                    <span>개발을 하기 시작한 이후로 작업을 하다보면
+                        개발자가 가져야하는 덕목에 대하여 생각하곤 합니다.
+                        책임감 있게, 창의적인, 협력적인, 회고하는, 즉각적인
+                        5가지의 덕목을 지키며 저는 노력하며 성장할 것임을 약속합니다.
+                    </span>
+                </div>
+            </div>
+            <div id="text_box">
+                <div id="info_box">
+                    <span>Info_</span>
+                    <span>안병훈</span>
+                    <span>1998년 1월 7일</span>
+                </div>
+                <div id="cert_box">
+                    <span>License_</span>
+                    <span>정보처리산업기사</span>
+                </div>
+                <div id="training_box">
+                    <span>Education_</span>
+                    <span>국제대학교 컴퓨터정보학과</span>
+                    <span>KGITBANK 국비학원</span>
+                </div>
+            </div>
+        </div>
+        <div id="crc_box">
+            <div id="text_box2">
+                <div id="res_box">
+                    <span>Responsible_</span>
+                    <span>
+                        맡은 일에 대해 책임을 다하여
+                        다른이에게 피해를 끼치지 않으며 
+                        맡은바 최선의 결과물을 낼 수 있도록 할 것입니다.
+                    </span>
+                </div>
+                <div id="cre_box">
+                    <span>Creative_</span>
+                    <span>창의적이고 혁신적인 코드를
+                         작성하기 위해 끊임없이 연구하고 노력할 것입니다.</span>
+                </div>
+                <div id="coo_box">
+                    <span>Cooperative_</span>
+                    <span>팀원들을 이해하고 대화하며 부족한 부분을 서로 채워가며
+                        보다 좋은 결과물을 낼 수 있도록 노력할 것입니다.
+                    </span>
+                </div>
+                <div id="ret_box">
+                    <span>Retrospective_</span>
+                    <span>자신의 작업물을 뒤돌아보고 문제를 찾으며
+                        부족한 부분을 채워가며 보다 효율적으로 성장할 것입니다.
+                    </span>
+                </div>
+                <div id="imm_box">
+                    <span>Immediately_</span>
+                    <span>문제가 발생할 시에는 작업물의 완성도를 위하여 조그마한 것이라도 지나치지 않고
+                        발견되는 즉시 수정할 것입니다.
+                    </span>
+                </div>
+            </div>
+        </div>
+        <div id="white"></div>
+    </div>
+    <div id="third">
+        <div id="skill">
+            <ul>
+                <li class="list_name">HTML</li>
+                <li class="list_name">CSS</li>
+                <li class="list_name">JAVA</li>
+                <li class="list_name">Java Script</li>
+            </ul>
+            <ul>
+                <li class="list_name">JSP</li>
+                <li class="list_name">Spring</li>
+                <li class="list_name">SQL</li>
+                <li class="list_name">GitHub</li>
+            </ul>
+        </div>
+        <div id="chart">
+            <div class="pie-chart pie-chart1"><span class="center"><span></span></span></div>
+            <div id="skill_list_box">
+                <span id="text_list">
+                    SELECT 
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    HTML
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    CSS
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    JAVA
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    J<span style="font-size: 70px;">ava</span> S<span style="font-size: 70px;">cript</span>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    JSP
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    Spring
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    SQL
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    GitHub
+                </span>
+            </div>
+            <span id="skill_per">-</span>
+        </div>
+        <div id="skill_info">
+            <p id="skill_title">기술을 선택해주세요!</p>
+            <span id="skill_text"></span>
+        </div>
+    </div>
+    <div id="fourth">
+        <div id="project1_box">
+            <div id="project1" onclick="location.href='https://1drv.ms/p/s!AlvVtV25DvJLtkgMw_kky7k4VZ34?e=rV5f6b';"></div>
+            <div id="pf1">PORTFOLIO</div>
+            <div id="pf_name1">CAFE_POS</div>
+        </div>
+        <div id="project2_box">
+            <div id="project2" onclick="location.href='https://1drv.ms/p/s!AlvVtV25DvJLxUONd3XMhdFxZ6Kb?e=NBdyYe';"></div>
+            <div id="pf2">PORTFOLIO</div>
+            <div id="pf_name2">BroKurly</div>
+        </div>
+    </div>
+    <div id="fifth">
+        <form class="gform" method="POST" data-email="dhshffnfn@naver.com"
+            action="https://script.google.com/macros/s/AKfycbygaJZFsfpErH6j3Hf04XHJfLhg2LUa5lTKfNqywA/exec">
+            <div id="send_box">
+                <input placeholder="Name" type="text" name="name" required>
+                <input placeholder="Email" type="email" name="email" required>
+                <input placeholder="Enter Message" type="text" name="message" required>
+                <button class="button-success pure-button button-xlarge">
+                    <i class="fa fa-paper-plane"></i>&nbsp;Send</button>
+                    <div id="send_message" style="display:none" class="thankyou_message">
+                        <h2>감사합니다. 확인 후 바로 연락드리겠습니다.</h2>
+                    </div>
+            </div>
+        </form>
+        <div id="line">
+            <div>
+                <p>Address</p>
+                <span>경기 파주시 가람로 70</span><br>
+                <span>Gyeonggi-do Paju-si 70,Garam-ro</span>
+            </div>
+            <div>
+                <p>Contact</p>
+                <span>dhshffnfn@naver.com</span><br>
+                <span>010-9656-3150</span>
+            </div>
+            <div>
+                <p>Social</p>
+                <span><a href="https://github.com/dhshffnfn123">Github</a></span><br>
+                <span><a href="https://www.facebook.com/dhshffnfn">Face Book</a></span><br>
+                <span><a href="https://www.instagram.com/dhshffnfn/">Instagram</a></span><br>
+                <!-- 아이콘 삽입 예정
+                https://www.facebook.com/dhshffnfn -->
+            </div>
+        </div>
+    </div>
+
+    <script src="./main.js"></script>
+    <script src="./header.js"></script>
+    <script data-cfasync="false" type="text/javascript"
+src="https://cdn.rawgit.com/dwyl/html-form-send-email-via-google-script-without-server/master/form-submission-handler.js">
+</script>
+</body>
+</html>

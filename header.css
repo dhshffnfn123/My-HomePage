@@ -1,0 +1,61 @@
+
+#header {
+    position: fixed;
+    top: 300px;
+    right: -150px;
+    border-radius: 8px;
+
+    width: 150px;
+    height: 400px;
+
+    background-color: rgb(43, 62, 92);
+    color: white;
+    z-index: 999;
+    box-shadow: rgb(61, 61, 61) 1px 1px 10px;
+
+    transition: all 1s ease;
+}
+
+#header > ul {
+    float: left;
+    text-decoration: none;
+    list-style: none;
+    font-size: 30px;
+    font-family: 'Do Hyeon', sans-serif;
+    padding-left: 10px;
+}
+
+#header > ul > li {
+    margin-bottom: 35px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+#header > ul > li:first-child {
+    color: rgb(86, 214, 176);
+}
+#header > ul > li:hover {
+    text-shadow: white 1px 1px 15px;
+}
+
+#header_btn {
+    position: relative;
+    top: -270px;
+    left: -30px;
+    width: 30px;
+    height: 100px;
+    background-color: rgb(43, 62, 92);
+    float: left;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    font-family: 'Do Hyeon', sans-serif;
+    
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+#header:hover {
+    right: 5px;
+}
