@@ -200,6 +200,10 @@ a:hover {
     width: 400px;
     height: 400px;
     border-radius: 1000px;
+    background-image: url(./assets/me.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgb(233, 233, 233) 0 0 10px;
 }
 
 #simple_intro {
